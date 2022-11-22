@@ -1,0 +1,263 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Noto Sans KR', sans-serif;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	letter-spacing: -0.3px;
+	word-break: keep-all;
+}
+
+
+.all_container {
+
+
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 100%;
+	align-items: center;
+	background-color: transparent;
+}
+
+.logo {
+	font-size: 25px;
+	color: #FF9402;
+	letter-spacing: -0.3PX;
+	font-family: 'Righteous', cursive;
+}
+
+.header_button .btn1 {
+	background-color: #ffffff;
+	color: #000000;
+	text-decoration: none;
+	padding: 5px 20px;
+	margin-left: 5px;
+	border: 1.5px solid #000000;
+	border-radius: 30px;
+	font-size: 14px;
+	font-weight:300;
+}
+
+.header_button .btn2 {
+	background-color: #000000;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 5px 20px;
+	margin-left: 5px;
+	border: 1.5px solid #000000;
+	border-radius: 30px;
+	font-size: 14px;
+	font-weight:300;
+}
+
+
+.first_container {
+	width: 100%;
+	min-height: 100vh;
+	background-image: url(./독립서점.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+.text_area {
+	text-align: center;
+	width: 100%;
+	min-height: 100vh;
+	position: absolute;
+	align-items: center;
+}
+
+
+.main_text {
+	font-size: 42px;
+	font-weight: 600;
+	margin-bottom: 6px;
+	color: #ffffff;
+	margin-top: 270px;
+}
+
+.sub_text {
+	font-size: 17px;
+	color: #d9d9d9;
+	margin-top: 30px;
+	line-height: 24px;
+}
+
+
+.button10 {
+	text-decoration: none;
+	margin-top: 40px;
+	font-size: 18px;
+	display: inline-block;
+	padding: 12px 25px;
+	background-color: #FF9402;
+	border-radius: 25px;
+ 	color: #000000;
+}
+
+
+
+
+.container2 {
+	text-align: center;
+}
+
+.main_text2 {
+	font-size: 42px;
+	font-weight: 500;
+	margin-bottom: 6px;
+	color: #000000;
+	margin-top: 270px;
+}
+
+.sub_text2 {
+	font-size: 17px;
+	color: #535353;
+	margin-top: 20px;
+	line-height: 24px;
+}
+
+
+.image_slider {
+	display: block;
+	width: 100%;
+	overflow-x: scroll;
+	padding: 10px;
+	box-sizing: border-box;
+	padding-top: 70px;
+	margin-bottom: 70px;
+	margin: auto;
+	background-color: white;
+}
+
+.horizontal_slider::-webkit-scrollbar {
+	display: none;
+}
+
+.image_container {
+	background-color: white;
+ 	display: block;
+ 	white-space: nowrap;
+
+}
+
+.item {
+	background-color: white;
+	display: inline-block;
+	margin-right: 2px;
+}
+
+.item img {
+	height: 300px;
+}
+
+
+
+
+.search_content {
+	text-align: center;
+	background-color: white;
+}
+
+#search {
+	background-color: white;
+	display: inline-block;
+	width: 30%;
+	padding: 7px 15px 7px 15px;
+	border: 2px solid;
+	outline: none;
+	border-radius: 20px;
+	font-size: 14px;
+	margin-top: 35px;
+}
+
+#search2 {
+	
+	display: inline-block;
+	outline: none;
+	border: none;
+	padding: 10px 20px;
+	background-color: #000000;
+	color: #ffffff;
+	border-radius: 20px;
+	font-size: 15px;
+	font-weight: 300;
+}
+
+
+
+
+
+
+.container3 {
+	text-align: center;
+}
+
+
+
+.mockup img {
+	max-width: 80%;
+	align-items: center;
+	margin-top: 50px;
+}
+
+
+
+
+.end_container {
+	background-color: #3B3B3B;
+	height: 300px;
+}
+
+
+.text_logo {
+	font-size: 35px;
+	letter-spacing: -0.3PX;
+	font-family: 'Righteous', cursive;
+	font-size: 42px;
+	font-weight: 500;
+	margin-bottom: 6px;
+	color: #000000;
+	margin-top: 230px;
+	padding-top: 50px;
+}
+
+.last_container {
+	text-align: center;
+	background-color: #FF9402;
+	height: 300px;
+}
+
+
+.button11 {
+	text-decoration: none;
+	margin-top: 40px;
+	font-size: 18px;
+	display: inline-block;
+	padding: 12px 25px;
+	background-color: #ffffff;
+	border-radius: 25px;
+ 	color: #000000;
+}
+
+.end_text {
+	font-size: 28px;
+	font-weight: 500;
+	margin-bottom: 6px;
+	color: #000000;
+	margin-top: 10px;
+	background-color:;
+}
+
+@media only screen and (max-width: 700px) {
+	
+}
