@@ -364,4 +364,89 @@ hr {
 
 }
 
+@media only screen and (max-width: 700px) {
+	#search {
+	background-color: white;
+	display: inline-block;
+	width: 50%;
+	padding: 7px 15px 7px 15px;
+	border: 2px solid;
+	outline: none;
+	border-radius: 20px;
+	font-size: 14px;
+	margin-top: 35px;
+}
+
+#search2 {
+	
+	display: inline-block;
+	outline: none;
+	border: none;
+	padding: 10px 20px;
+	background-color: #000000;
+	color: #ffffff;
+	border-radius: 20px;
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.book_container {
+	margin-top: 120px;
+	padding: 10px;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 20px;
+}
+
+.bookstore .title10 {
+	font-size: 22px;
+	font-weight: 500;
+	text-decoration: none;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-bottom: 10px;
+	margin-top: 70px;
+}
+
+.bookstore .content10 {
+	font-size: 15px;
+	font-weight: 300;
+	text-decoration: none;
+	padding-left: 30px;
+	padding-right: 30px;
+	line-height: 23px;
+}
+
+.bookstore2 a {
+	text-decoration: none;
+}
+
+.bookstore2 {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.bookstore .storename {
+	font-size: 17px;
+	font-weight: 300;
+	text-decoration: none;
+	color: #000000;
+	padding-left: 10px;
+	padding-right: 50px;
+	margin-top: 15px;
+}
+
+.bookstore .storelacation {
+	font-size: 12px;
+	font-weight: 400;
+	color: gray;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 50px;
+	margin-bottom: 20px;
+}
+
+
+
+}
 
